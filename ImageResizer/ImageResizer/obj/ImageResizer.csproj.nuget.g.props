@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\Rasaa\.nuget\packages\" />
     <SourceRoot Include="E:\vsvs\vs sdk\NuGetPackages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)sixlabors.imagesharp\3.0.0\build\SixLabors.ImageSharp.props" Condition="Exists('$(NuGetPackageRoot)sixlabors.imagesharp\3.0.0\build\SixLabors.ImageSharp.props')" />
+  </ImportGroup>
 </Project>

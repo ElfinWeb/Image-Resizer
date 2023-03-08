@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JHLQs1hU6kkhei37dcnNPoqGVHvvgZbAqge/IaI5hVKPTGkw/06zfnxAWOtcLkCQILKQBlonn2TLOQTqvIOJpQ==",
+  "dgSpecHash": "zK7RYPS/IKwD44Dbv+iwIgi+WqKy51ddpUtzdc7xQX7I+bOFVDDxlJOB/fZ9phuvE7C/pdeesDCpLxLpvIbJ3Q==",
   "success": true,
   "projectFilePath": "E:\\C#\\Projects\\ImageResizer\\ImageResizer\\ImageResizer\\ImageResizer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Rasaa\\.nuget\\packages\\sixlabors.imagesharp\\3.0.0\\sixlabors.imagesharp.3.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
