@@ -1,0 +1,17 @@
+E:\C#\Projects\ImageResizer\ImageResizer\ImageResizer\bin\Debug\net7.0\ImageResizer.exe
+E:\C#\Projects\ImageResizer\ImageResizer\ImageResizer\bin\Debug\net7.0\ImageResizer.deps.json
+E:\C#\Projects\ImageResizer\ImageResizer\ImageResizer\bin\Debug\net7.0\ImageResizer.runtimeconfig.json
+E:\C#\Projects\ImageResizer\ImageResizer\ImageResizer\bin\Debug\net7.0\ImageResizer.dll
+E:\C#\Projects\ImageResizer\ImageResizer\ImageResizer\bin\Debug\net7.0\ImageResizer.pdb
+E:\C#\Projects\ImageResizer\ImageResizer\ImageResizer\bin\Debug\net7.0\SixLabors.ImageSharp.dll
+E:\C#\Projects\ImageResizer\ImageResizer\ImageResizer\obj\Debug\net7.0\ImageResizer.csproj.AssemblyReference.cache
+E:\C#\Projects\ImageResizer\ImageResizer\ImageResizer\obj\Debug\net7.0\ImageResizer.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Projects\ImageResizer\ImageResizer\ImageResizer\obj\Debug\net7.0\ImageResizer.AssemblyInfoInputs.cache
+E:\C#\Projects\ImageResizer\ImageResizer\ImageResizer\obj\Debug\net7.0\ImageResizer.AssemblyInfo.cs
+E:\C#\Projects\ImageResizer\ImageResizer\ImageResizer\obj\Debug\net7.0\ImageResizer.csproj.CoreCompileInputs.cache
+E:\C#\Projects\ImageResizer\ImageResizer\ImageResizer\obj\Debug\net7.0\ImageResizer.csproj.CopyComplete
+E:\C#\Projects\ImageResizer\ImageResizer\ImageResizer\obj\Debug\net7.0\ImageResizer.dll
+E:\C#\Projects\ImageResizer\ImageResizer\ImageResizer\obj\Debug\net7.0\refint\ImageResizer.dll
+E:\C#\Projects\ImageResizer\ImageResizer\ImageResizer\obj\Debug\net7.0\ImageResizer.pdb
+E:\C#\Projects\ImageResizer\ImageResizer\ImageResizer\obj\Debug\net7.0\ImageResizer.genruntimeconfig.cache
+E:\C#\Projects\ImageResizer\ImageResizer\ImageResizer\obj\Debug\net7.0\ref\ImageResizer.dll

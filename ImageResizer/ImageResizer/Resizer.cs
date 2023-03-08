@@ -9,22 +9,26 @@ namespace ImageResizer
 {
     public static class Resizer
     {
-        public static string Resize(Image img, int maxHeight, int maxWidth)
+        public static void ResizeImage(Image img, double maxWidth, double maxHeight)
         {
-            if (img.Width > maxWidth || img.Height > maxHeight)
-            {
-                double widthRatio = (double)img.Width / maxWidth;
-                double heightRatio = (double)img.Height / maxHeight;
-                double ratio = Math.Max(widthRatio, heightRatio);
+            double resizeWidth = img.Width;
+            double resizeHeight = img.Height;
 
-                int newWidth = (int)(img.Width / ratio);
-                int newHeight = (int)(img.Height / ratio);
-                return newHeight.ToString() + "," + newWidth.ToString();
-            }
-            else
+            double aspect = resizeWidth / resizeHeight;
+
+            if (resizeWidth > maxWidth)
             {
-                return img.Height.ToString() + "," + img.Width.ToString();
+                resizeWidth = maxWidth;
+                resizeHeight = resizeWidth / aspect;
             }
+            if (resizeHeight > maxHeight)
+            {
+                aspect = resizeWidth / resizeHeight;
+                resizeHeight = maxHeight;
+                resizeWidth = resizeHeight * aspect;
+            }
+
+            img.Mutate(i => i.Resize((int)resizeWidth, (int)resizeHeight));
         }
     }
 }

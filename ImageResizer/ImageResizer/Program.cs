@@ -1,8 +1,6 @@
-﻿
+﻿using ImageResizer;
 
-using ImageResizer;
-
-string fileName = Guid.NewGuid().ToString() + ".jpg";
+string fileName = "example.jpg";
 string fullPath = Path.Combine(Directory.GetCurrentDirectory(), fileName);
 
 Console.WriteLine("Enter the height :");
@@ -13,16 +11,13 @@ string width = Console.ReadLine();
 
 try
 {
+    Image img;
     using (var stream = File.OpenRead(fullPath))
-    {
-        Image img = Image.Load(stream);
-        string newSize = Resizer.Resize(img, int.Parse(height), int.Parse(width));
-        string[] aSize = newSize.Split(",");
-
-        img.Mutate(i => i.Resize(int.Parse(aSize[1]), int.Parse(aSize[0])));
-
-        img.Save(fullPath);
+    { 
+        img = Image.Load(stream);
     }
+    Resizer.ResizeImage(img, double.Parse(width), double.Parse(height));
+    img.Save(fullPath);
     Console.WriteLine("Image resized!");
 }
 catch (Exception ex)
